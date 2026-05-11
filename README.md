@@ -10,7 +10,9 @@ Figure 2: Comparison of different training paradigms for all-in-one RS image res
 # Introduction
 All-in-one remote sensing (RS) multi-modal image restoration has emerged as a promising paradigm for addressing diverse degradations within a unified framework. However, existing methodologies encompassing Prompt-based, Agent-based, and LoRA-based approaches encounter a subtle architectural trade off. They often prioritize task heterogeneity at the expense of underlying physical homologies, or conversely, focus on cross-task shared priors while potentially overlooking unique task specific heterogeneities. Furthermore, these systems can involve considerable computational overhead when addressing mixed degradations due to the sequential invocation of multiple tools. To overcome these limitations, we propose a approach named hierarchical physical-chain decoupling (HPCD) aiming to simultaneously exploit physical homology and task heterogeneity, a novel framework decomposes restoration into three progressive stages according to physical priors: global geographic layout learning in Stage I, physics-driven group homology extraction across atmospheric, sensor, and transmission chains in Stage II, and task-specific atomic expert refinement in Stage III. Specifically, we implement the refinement stage via Mixture of Experts Low-Rank Adaptation (MoLoRA), which enables dynamic expert activation based on identified degradation types. We further introduce a Vision-Language Model (VLM) Guided Regularization paradigm to mitigate diffusion based hallucinations and develop Multi-LoRA Distribution Matching Distillation (Multi-LoDMD) for efficient one step inference. Finally, we establish UniRS-60K, a comprehensive benchmark for multi-modal and adversarial restoration. Experiments demonstrate that HPCD achieves state-of-the-art precision and task compatibility across three benchmarks. The code and UniRS-60K dataset are released at {\url{https://github.com/zhentao-zou/HPCD}}.
 # Uni-RS-60K Dataset
-The Dataset are avalaible are https://huggingface.co/datasets/zzt001/UniRS-60K
+The Dataset are avaliable at https://huggingface.co/datasets/zzt001/UniRS-60K
+## CheckPoints
+The Checkpoints are avaliable at  https://huggingface.co/zzt001/HPCD
 
 # Vision Results
 ![alt text](https://github.com/zhentao-zou/HPCD/blob/main/Fig/final_comparison_3x3.png)
@@ -18,7 +20,7 @@ The Dataset are avalaible are https://huggingface.co/datasets/zzt001/UniRS-60K
 ## Training
 Researchers interested in extending our work to alternative datasets may utilize our provided training framework as a reference implementation.
 
-# Reference
+## Reference
 @article{zou2026 Hierarchical,
   title={Hierarchical Physical-Chain Decoupling with Geo-Semantic MoLoRA for All-in-One Multi-modal Remote Sensing Image Restoration},
   author={Zou, Zhentao},
