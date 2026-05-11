@@ -1,0 +1,67 @@
+[
+  {
+    "image": "Cloud_0.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/Cloud_0.png",
+    "qwen_response": "The most prominent distortion is cloud cover. The restored image will show a rural landscape with patches of green fields, likely farmland, interspersed with darker areas suggesting forests or wetlands. A network of roads and waterways crisscrosses the area, indicating human activity. The terrain appears relatively flat, typical of agricultural regions."
+  },
+  {
+    "image": "Mix_Blur_Stripe_Patch.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/Mix_Blur_Stripe_Patch.png",
+    "qwen_response": "The most prominent distortions are strip noise, motion blur, adversarial patch attack, and adversarial patch attack. The restored image will show a narrow street flanked by dense green trees, with a red-tiled building on one side and industrial structures on the other. A car is parked along the street, and the area appears to be in an urban or suburban setting with mixed-use buildings and greenery."
+  },
+  {
+    "image": "adversarial_patch_aee84c96-DJI_0334__1024__824___0.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/adversarial_patch_aee84c96-DJI_0334__1024__824___0.png",
+    "qwen_response": "The most prominent distortion is adversarial patch attack. The restored image will show a parking area with three cars parked in front of a weathered building. The building has peeling white paint, rust stains, and a corrugated metal roof. The ground is concrete, and there's a small patch of grass visible on the right side."
+  },
+  {
+    "image": "blur_135.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/blur_135.png",
+    "qwen_response": "The most prominent distortion is motion blur. The restored image will depict a nighttime urban street scene with parked cars along one side, a sidewalk on the other, and trees lining the background. A person is walking on the sidewalk, and the area appears to be quiet with minimal activity. The lighting is dim, creating a subdued atmosphere."
+  },
+  {
+    "image": "fog_moderate_train_173.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/fog_moderate_train_173.png",
+    "qwen_response": "The most prominent distortion is fogging. The restored image will show an urban area with a river running through it, surrounded by residential buildings. A sports field is visible near the river, and there's greenery along the waterway. The area appears to be a mix of residential and industrial zones, with some open spaces and trees."
+  },
+  {
+    "image": "fog_moderate_train_42.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/fog_moderate_train_42.png",
+    "qwen_response": "The most prominent distortion is fogging. The restored image will show a mix of urban and natural landscapes. There's a large industrial complex with blue rooftops, surrounded by greenery and water bodies. Roads intersect the area, dividing it into sections. The environment includes patches of trees, open fields, and what appears to be a river or canal running through part of the scene."
+  },
+  {
+    "image": "fog_thick_train_174-inputs.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/fog_thick_train_174-inputs.png",
+    "qwen_response": "The most prominent distortion is fogging. The restored image will show a densely populated area with colorful rooftops, surrounded by water bodies and greenery. The landscape includes small islands with trees, indicating a mix of urban development and natural elements. The environment appears to be a blend of residential and possibly industrial zones, with clear demarcations between built-up areas and waterways."
+  },
+  {
+    "image": "fog_thick_train_27-inputs.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/fog_thick_train_27-inputs.png",
+    "qwen_response": "The most prominent distortion is fogging. The restored image will show a mix of urban and natural landscapes, with a large body of water surrounded by greenery. Roads intersect the area, and there are buildings on both sides, indicating human habitation. The terrain includes fields and patches of forest, suggesting a semi-urban environment."
+  },
+  {
+    "image": "fog_thick_train_39-inputs.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/fog_thick_train_39-inputs.png",
+    "qwen_response": "The most prominent distortion is fogging. The restored image will show an urban area with buildings on the left, a road network in the center, and green spaces and water bodies on the right. There is a mix of developed and undeveloped land, with some industrial or commercial structures visible. The environment appears to be a blend of urban development and natural elements like trees and water."
+  },
+  {
+    "image": "gaussian_noise_411.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/gaussian_noise_411.png",
+    "qwen_response": "The most prominent distortion is Gaussian noise. The restored image will show a vast, flat landscape with patches of green vegetation and scattered dark areas, possibly indicating wetlands or water bodies. The terrain appears uneven with some low-lying regions, suggesting a marshy or swampy environment."
+  },
+  {
+    "image": "inpainting_T37TGN_R078_21.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/inpainting_T37TGN_R078_21.png",
+    "qwen_response": "The most prominent distortion is inpainting artifacts. The restored image will show a patchwork of agricultural fields in varying shades of green and blue, indicating different crops or soil types. The fields are organized in rectangular patterns, suggesting planned farming practices. There is no visible water bodies or significant elevation changes, suggesting a relatively flat landscape."
+  },
+  {
+    "image": "jpeg2000_25.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/jpeg2000_25.png",
+    "qwen_response": "The most prominent distortion is JPEG compression artifacts. The restored image will show a rugged mountainous landscape with steep slopes, valleys, and sparse vegetation. Snow patches are visible on higher elevations, indicating cold temperatures. The terrain appears to be arid or semi-arid, with no significant water bodies or dense forests."
+  },
+  {
+    "image": "stripe_noise_T51HVE_R074_64.png",
+    "image_path": "/public/zzt/zzt/AutoDIR-main/LR/stripe_noise_T51HVE_R074_64.png",
+    "qwen_response": "The most prominent distortions are strip noise and cloud cover. The restored image will depict a rugged, mountainous terrain with deep valleys and sparse vegetation. The landscape is characterized by dark, rocky surfaces and patches of greenery, suggesting a cold climate with limited plant life. The overall scene conveys a remote, possibly alpine environment."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "image": "Cloud_0.png",
+    "image_path": "./LR/Cloud_0.png",
+    "degradation_answer": "The most prominent distortion is cloud cover. The restored image will show a mix of urban and rural areas, with dense greenery in the periphery and a central area featuring buildings and roads. The landscape includes patches of agriculture, forests, and open fields, indicating a transition zone between city and countryside."
+  },
+  {
+    "image": "Mix_Blur_Stripe_Patch.png",
+    "image_path": "./LR/Mix_Blur_Stripe_Patch.png",
+    "degradation_answer": "The most prominent distortions are strip noise, adversarial patch attack, and adversarial patch attack. The restored image will show a parking lot surrounded by dense green trees, with a building in the background. A blue canopy structure is visible near the bottom left, and a car is parked on the right side. The area appears to be part of a residential or commercial complex."
+  },
+  {
+    "image": "adversarial_patch_aee84c96-DJI_0334__1024__824___0.png",
+    "image_path": "./LR/adversarial_patch_aee84c96-DJI_0334__1024__824___0.png",
+    "degradation_answer": "The most prominent distortion is adversarial patch attack. The restored image will show a parking area with three cars parked in front of a weathered building. The building has white walls with rust stains, a corrugated metal roof, and a balcony. The ground is concrete, and there's a small patch of greenery near the wall. The scene appears to be in an urban or industrial setting."
+  },
+  {
+    "image": "blur_135.png",
+    "image_path": "./LR/blur_135.png",
+    "degradation_answer": "The most prominent distortion is motion blur. The restored image will depict a nighttime urban scene with a road, a car in motion, and pedestrians on the sidewalk. Trees line the background, and buildings are visible in the distance. The lighting is dim, creating a moody atmosphere with shadows and highlights from streetlights and vehicle headlights."
+  },
+  {
+    "image": "fog_moderate_train_173.png",
+    "image_path": "./LR/fog_moderate_train_173.png",
+    "degradation_answer": "The most prominent distortion is fogging. The restored image will show a densely populated urban area with a river running through it, surrounded by greenery. There is a sports complex with a track and field near the river. The area has a mix of residential buildings, industrial structures, and open spaces. The environment appears to be a blend of urban development and natural elements."
+  },
+  {
+    "image": "fog_moderate_train_42.png",
+    "image_path": "./LR/fog_moderate_train_42.png",
+    "degradation_answer": "The most prominent distortion is fogging. The restored image will show a mix of industrial and natural landscapes. A large industrial complex with buildings and infrastructure dominates the right side, while the left features greenery, including a winding river or canal. The area is bordered by urban development on one side and open fields on the other, indicating a transition between rural and industrial zones."
+  },
+  {
+    "image": "fog_thick_train_174-inputs.png",
+    "image_path": "./LR/fog_thick_train_174-inputs.png",
+    "degradation_answer": "The most prominent distortion is fogging. The restored image will show a densely populated area surrounded by water, with numerous small islands and channels. The settlement is characterized by closely packed buildings with colorful roofs, indicating a vibrant community. The surrounding water bodies suggest a coastal or riverine environment, possibly influenced by tidal activity."
+  },
+  {
+    "image": "fog_thick_train_27-inputs.png",
+    "image_path": "./LR/fog_thick_train_27-inputs.png",
+    "degradation_answer": "The most prominent distortion is fogging. The restored image will show an aerial view of a rural area with a mix of agricultural fields, a body of water, and some industrial or residential structures. There is a road network connecting different parts, and patches of greenery are visible, indicating some forested areas. The landscape appears to be a blend of farmland and developed land."
+  },
+  {
+    "image": "fog_thick_train_39-inputs.png",
+    "image_path": "./LR/fog_thick_train_39-inputs.png",
+    "degradation_answer": "The most prominent distortion is fogging. The restored image will show a mix of urban and rural landscapes. On the left, there's a dense cluster of buildings, likely an industrial or commercial area. In the center, a large open field with patches of greenery is visible. To the right, there are more open fields and what appears to be a body of water in the far background. Roads and pathways crisscross the area, connecting different sections."
+  },
+  {
+    "image": "gaussian_noise_411.png",
+    "image_path": "./LR/gaussian_noise_411.png",
+    "degradation_answer": "The most prominent distortion is Gaussian noise. The restored image will show a rugged, mountainous terrain with steep slopes and valleys. The landscape appears arid, with sparse vegetation, suggesting a desert or semi-desert environment. The shadows indicate a sunny day, casting distinct patterns across the rocky surface."
+  },
+  {
+    "image": "inpainting_T37TGN_R078_21.png",
+    "image_path": "./LR/inpainting_T37TGN_R078_21.png",
+    "degradation_answer": "The most prominent distortion is inpainting artifacts. The restored image will show a close-up of a textured surface with alternating shades of blue, green, and gray. The texture appears to be rough and uneven, possibly resembling a fabric or a painted wall. The colors suggest a natural or industrial setting, with no distinct topographical features visible."
+  },
+  {
+    "image": "jpeg2000_25.png",
+    "image_path": "./LR/jpeg2000_25.png",
+    "degradation_answer": "The most prominent distortion is JPEG compression artifacts. The restored image will show rugged, mountainous terrain with deep valleys and ridges. The landscape appears arid, with sparse vegetation, and snow or ice covers parts of the peaks, indicating cold temperatures. The texture suggests erosion and geological activity, with visible cracks and crevices."
+  },
+  {
+    "image": "stripe_noise_T51HVE_R074_64.png",
+    "image_path": "./LR/stripe_noise_T51HVE_R074_64.png",
+    "degradation_answer": "The most prominent distortion is strip noise. The restored image will depict a rugged, rocky terrain with patches of green vegetation. The surface is uneven, featuring small stones and pebbles, suggesting a natural, possibly mountainous or coastal environment. The lighting indicates it might be dusk or dawn, adding a moody atmosphere to the scene."
+  }
+]
