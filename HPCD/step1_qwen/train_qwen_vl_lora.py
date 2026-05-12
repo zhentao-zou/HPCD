@@ -5,8 +5,8 @@
 import os
 # 设置单卡训练（如果要使用多卡，通过 torchrun 启动脚本设置）
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"  # 注释掉，让 torchrun 自动管理
-os.environ["HF_DATASETS_CACHE"] = "/public/zzt/zzt/CoTIR/cache/datasets_cache"
-os.environ["TMPDIR"] = "/public/zzt/zzt/CoTIR/cache/datasets_tmp"
+os.environ["HF_DATASETS_CACHE"] = "./datasets_cache"
+os.environ["TMPDIR"] = "./cache/datasets_tmp"
 
 import json
 import logging
@@ -48,10 +48,10 @@ logger = logging.getLogger(__name__)
 # =======================
 # 2. 路径配置
 # =======================
-MODEL_PATH = "/public/dr/model/Qwen2.5-VL-7B-Instruct"
-DATA_JSON = "/public/zzt/zzt/AutoDIR-main/depictqa_package/DepictQA_Single_Degradation_Q1_Answer_Only_final.json"
-IMAGE_BASE_DIR = "/public/zzt/zzt/AutoDIR-main/depictqa_package"
-OUTPUT_DIR = "/public/zzt/zzt/CoTIR/checkpoint_depictqa_lora"
+MODEL_PATH = "./model/Qwen2.5-VL-7B-Instruct"
+DATA_JSON = "./depictqa_package/DepictQA_Single_Degradation_Q1_Answer_Only_final.json"
+IMAGE_BASE_DIR = "./AutoDIR-main/depictqa_package"
+OUTPUT_DIR = "./checkpoint_depictqa_lora"
 MAX_LENGTH = 2048*2  # 减小最大长度节省显存
 
 # 缓存目录
