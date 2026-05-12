@@ -3,10 +3,7 @@
 This is the official implementation of our paper:
 
 > **Hierarchical Physical-Chain Decoupling with Geo-Semantic MoLoRA for All-in-One Multi-modal Remote Sensing Image Restoration**
->
-> *Authors: (Your Name)*
->
-> arXiv: (To be updated)
+
 
 ## Overview
 
